@@ -1,5 +1,5 @@
 {
-  "name": "safe-tx-analyzer",
+  "name": "evm-tx-simulation",
   "version": "0.1.0",
   "private": true,
   "scripts": {
