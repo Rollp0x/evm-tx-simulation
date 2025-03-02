@@ -7,8 +7,8 @@ const nextConfig = {
     ...(process.env.NODE_ENV === 'production' ? {
         output: 'export',
         distDir: 'build',
-        basePath: '/analysis',  // 添加这行，设置基础路径
-        assetPrefix: '/analysis/',
+        basePath: '/simulation',  // 添加这行，设置基础路径
+        assetPrefix: '/simulation/',
     } : {}),
 };
 
